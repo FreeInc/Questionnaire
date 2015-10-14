@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Questionnaire.Classes
+namespace Questionnaire.Entities
 {
     public class Form
     {
