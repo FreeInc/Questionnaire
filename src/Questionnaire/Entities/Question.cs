@@ -5,7 +5,10 @@ using System.Threading.Tasks;
 
 namespace Questionnaire.Classes
 {
-    public class Form
+    public class Question
     {
+        public int Id;
+        public string Text;
+        public List <String> Options;
     }
 }

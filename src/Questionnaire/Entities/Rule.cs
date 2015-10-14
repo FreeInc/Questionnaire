@@ -5,7 +5,11 @@ using System.Threading.Tasks;
 
 namespace Questionnaire.Classes
 {
-    public class Question
+    public class Rule
     {
+        public int Id;
+        public int FormId;
+        public int AnswerId;
+        public int NextFormId;
     }
 }
