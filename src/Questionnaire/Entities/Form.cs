@@ -7,8 +7,9 @@ namespace Questionnaire.Entities
 {
     public class Form
     {
-        public int Id;
-        public string Name;
+        public int Id { get; set;}
+        public string Name { get; set; }
+
         public List <Question> Questions;
     }
 }
