@@ -26,9 +26,9 @@ namespace Questionnaire.DataAccess.FakeImplementation
             return ListForm.SingleOrDefault(x => x.Id == FormId);
         }
 
-        public void Get()
+        public IEnumerable<Form> Get()
         {
-            throw new NotImplementedException();
+            return ListForm.ToArray<Form>();
         }
         public void Add(Form AddForm)
         {

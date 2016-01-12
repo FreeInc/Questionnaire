@@ -8,7 +8,7 @@ namespace Questionnaire.DataAccess.Interfaces
 {
     interface IFormsRepository
     {
-        void Get();
+        IEnumerable<Form> Get();
         Form GetById(int FormId);
         void Add(Form AddForm);
         void Update(Form UpdForm);

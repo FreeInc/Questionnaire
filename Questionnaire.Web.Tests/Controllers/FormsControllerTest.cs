@@ -16,15 +16,6 @@ namespace Questionnaire.Web.Tests.Controllers
         [TestMethod]
         public void Get()
         {
-            // Arrange
-            FormsController controller = new FormsController();
-
-            // Act
-            IEnumerable<string> result = controller.Get();
-
-            // Assert
-            Assert.IsNotNull(result);
-            Assert.AreEqual(2, result.Count());
         }
 
         [TestMethod]
