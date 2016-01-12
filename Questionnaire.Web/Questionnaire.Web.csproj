@@ -122,7 +122,6 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\Api\FormsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DataAccess\FakeImplementation\FormsRepositoryFake .cs" />
     <Compile Include="DataAccess\Interfaces\IFormsRepository .cs" />
     <Compile Include="Entities\Form.cs" />
